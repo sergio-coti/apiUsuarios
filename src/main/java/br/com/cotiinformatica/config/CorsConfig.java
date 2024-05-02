@@ -13,7 +13,7 @@ public class CorsConfig implements WebMvcConfigurer {
 	public void addCorsMappings(CorsRegistry registry) {
 		
 		registry.addMapping("/**")
-			.allowedOrigins("http://localhost:4200")
+			.allowedOrigins("https://proud-moss-001374f1e.5.azurestaticapps.net")
 			.allowedMethods("POST", "PUT", "DELETE", "GET")
 			.allowedHeaders("*");			
 	}
